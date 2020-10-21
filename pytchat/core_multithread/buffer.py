@@ -4,7 +4,7 @@ import queue
 
 class Buffer(queue.Queue):
     '''
-    チャットデータを格納するバッファの役割を持つFIFOキュー
+    A FIFO queue that acts as a buffer to store chat data
 
     Parameter
     ---------
