@@ -9,8 +9,8 @@ class Buffer(queue.Queue):
     Parameter
     ---------
     max_size : int
-        格納するチャットブロックの最大個数。0の場合は無限。
-        最大値を超える場合は古いチャットブロックから破棄される。
+        Maximum number of chat blocks to store. Infinite if 0. 
+        If the maximum value is exceeded, the old chat block will be discarded.
     '''
 
     def __init__(self, maxsize=0):
